@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Area-modify{
+  border: 1px solid red !important;
+}
+
+
+.info-input {
+  background-color: #B2E3FF;
+  border-radius: 1rem;
+  width: max-content;
+  padding: 13px;
+  margin: 15px;
+}
+
+.displayCompany {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.displayPrice {
+  text-align: justify;
+  position: relative;
+  margin: 1rem;
+  left: 20%;
+  font-family: verdana, arial, helvetica;
+}
+
+.chart {
+  margin-top: 3rem;
+}
+
+.recentClosePrice {
+  font-size: 1.5rem;
+  color: darkblue;
+  margin: 1rem;
+}
+
+.tickerName {
+  font-size: 1.5rem;
+  color: darkblue;
+  margin: 1rem;
+}
+.ButtonLearnMore {
+  margin: 2rem 1rem !important;
+  left: 20% !important;
+}
+
+.detail-company-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .displayPrice {
+    text-align: justify;
+    position: relative;
+    margin: 1rem;
+    font-family: verdana, arial, helvetica;
+    left: 0%;
+  }
+}

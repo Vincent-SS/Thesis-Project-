@@ -1,0 +1,41 @@
+.container {
+  background-color: #4e55ff;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-family: verdana;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 1.6px;
+}
+
+h2 {
+  font-weight: normal;
+  letter-spacing: 1.3px;
+}
+
+.homeIcon {
+  cursor: pointer;
+  transform: scale(1.5);
+  position: relative;
+  left: 95%;
+  display: block !important;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin: 0 12px;
+  }
+
+  .homeIcon {
+    transform: scale(1);
+  }
+}

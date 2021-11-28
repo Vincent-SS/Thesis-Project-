@@ -1,0 +1,77 @@
+.body {
+  font-family: verdana;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.item {
+  margin: .5rem;
+  border-radius: 20px;
+  padding: 1rem;
+  border: 1px solid #8ac0f2;
+  text-align: center;
+}
+
+.item:hover {
+  /* border: 1px solid #4e55ff; */
+}
+
+.here {
+  font-weight: bold;
+  color: rgb(68, 161, 192);
+}
+
+.subtitle {
+  letter-spacing: 1.5;
+}
+
+.addTickerButton {
+  width: 150px;
+  padding: 6px;
+}
+
+.bottomNote {
+  position: relative;
+  bottom: -100px;
+  font-size: 12px;
+  color: grey;
+}
+
+.errorLeft {
+  position: relative;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .errorLeft {
+    font-size: 12px !important;
+    padding: 2px !important;
+  }
+}
+
+.subsubtitle {
+  position: relative;
+  bottom: 10px;
+  font-size: 13px;
+}
+
+.addDateButton {
+  bottom: 18px;
+  width: 150px;
+  padding: 6px;
+}
+
+.predictedDate {
+  width: 220px;
+}
+
+.errorRight {
+  position: relative;
+  bottom: 0px;
+}
